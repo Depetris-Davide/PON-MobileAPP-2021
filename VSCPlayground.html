@@ -1,7 +1,7 @@
 Multi-Cursor Editing
 
-#p1 {background-color: #ff0000;}                /* red in HEX format */
-#p2 {background-color: hsl(120, 100%, 50%);}    /* green in HSL format */
+#p1 {background-color: #ff0000;} /* red in HEX format */
+#p2 {background-color: hsl(120, 100%, 50%);} /* green in HSL format */
 #p3 {background-color: rgba(0, 4, 255, 0.733);} /* blue with alpha channel in RGBA format */
 
 const canvas = document.querySelector('canvas');
@@ -21,9 +21,9 @@ context.#ff0000
 Line Actions
 
 {
-    "name": "John",
-    "age": 31,
-    "city": "New York"
+"name": "John",
+"age": 31,
+"city": "New York"
 }
 
 Rename Refactoring
@@ -33,14 +33,14 @@ new Book("War of the Worlds", "H G Wells");
 new Book("The Martian", "Andy Weir");
 
 /**
- * Represents a book.
- *
- * @param {string} test Title of the book
- * @param {string} author Who wrote the book
- */
+* Represents a book.
+*
+* @param {string} test Title of the book
+* @param {string} author Who wrote the book
+*/
 function Book(test, author) {
-    this.title = test;
-    this.author = author;
+this.title = test;
+this.author = author;
 }
 
 Formatting
@@ -48,8 +48,8 @@ Formatting
 const cars = ["🚗", "🚙", "🚕"];
 
 for (const car of cars) {
-    // Drive the car
-    console.log(`This is the car ${car}`);
+// Drive the car
+console.log(`This is the car ${car}`);
 }
 
 Code Folding
@@ -73,15 +73,15 @@ Console.log(add(1, 1.5));
 
 
 function Add(a, b)
-    return a + b;
+return a + b;
 }
 
 Snippets
 
 try {
-    
+
 } catch (error) {
-    
+
 }
 
 Emmet
@@ -93,3 +93,10 @@ Emmet
     <li class="item4"></li>
     <li class="item5"></li>
 </ul>
+
+JavaScript Type Checking
+
+// @ts-check
+
+let easy = true;
+easy = 42;
